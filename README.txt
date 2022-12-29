@@ -1,0 +1,1 @@
+24-hour format analog clock in HTML/CSS/JS. I created this to help fix my erratic sleep schedule. In this clock, a full cycle equals a full day, so it creates a sense of importance to spend time wisely. Basically, less procrastination and more producivity.
