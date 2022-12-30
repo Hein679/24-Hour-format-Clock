@@ -49,7 +49,7 @@ function startClock() {
 
   let secDeg = seconds * (360 / 60) + minutes * 360;
   let minDeg = minutes * (360 / 60) + seconds / 12;
-  let hourDeg = hours * (360 / 24) + (minutes / 12) * (360 / 60);
+  let hourDeg = hours * (360 / 24) + (minutes / 24) * (360 / 60);
   secHand.style.transform = `translateX(-50%) rotate(${secDeg}deg)`;
   minHand.style.transform = `translateX(-50%) rotate(${minDeg}deg)`;
   hourHand.style.transform = `translateX(-50%) rotate(${hourDeg}deg)`;
